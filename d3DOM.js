@@ -2,11 +2,12 @@ var body = d3.select('body');
 var ul = d3.select('ul');
 var div = d3.select('div');
 
-ul.append('li').append('text').text("Bar Chart").attr("link", "https://bbasaldu.github.io/CannibasBarChart/");
-ul.append('li').append('text').text("Scatter Plot").attr("link", "https://bbasaldu.github.io/ScatterPlot/");
-ul.append('li').append('text').text("Multi Line Chart").attr("link", "https://bbasaldu.github.io/MultiLine-Chart/");
+ul.append('li').append('text').text("Zoomable Bar Chart").attr("link", "https://bbasaldu.github.io/CannibasBarChart/");
+ul.append('li').append('text').text("Pan/drag/zoom Scatter Plot").attr("link", "https://bbasaldu.github.io/ScatterPlot/");
+ul.append('li').append('text').text("On/Off Multi Line Chart").attr("link", "https://bbasaldu.github.io/MultiLine-Chart/");
 ul.append('li').append('text').text("Bubble Pack Layout").attr("link", "https://bbasaldu.github.io/MetaCritic-Review-Visualizer/");
 ul.append('li').append('text').text("Census Data Geo Map").attr("link", "https://bbasaldu.github.io/CensusDataGeoMap/");
+ul.append('li').append('text').text("Census Data Grouped Bar Chart").attr("link", "https://bbasaldu.github.io/CensusDataGroupedBarChart/");
 //ul.append('li').text("3 Chart");//placeholders for future projects
 //ul.append('li').text("4 Chart");
 //ul.append('li').text("5 Chart");
@@ -20,7 +21,7 @@ var viewBox = ul.node().getBoundingClientRect();
 
 let y = 0;
 ul.on("wheel", function(){
-    
+    //console.log(event)
     var firstElem = ul.node().firstElementChild.getBoundingClientRect();
     var topLi = ul.node().firstElementChild;
     var lastElem = ul.node().lastElementChild.getBoundingClientRect();
