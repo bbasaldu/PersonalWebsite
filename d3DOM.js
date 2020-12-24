@@ -5,6 +5,7 @@ var div = d3.select('div');
 ul.append('li').append('text').text("Zoomable Bar Chart").attr("link", "https://bbasaldu.github.io/CannibasBarChart/");
 ul.append('li').append('text').text("Best Overwatch League Bar Chart").attr("link", "https://bbasaldu.github.io/OverwatchLeagueDataVisualization/");
 ul.append('li').append('text').text("US Conglomerates").attr('link', "https://bbasaldu.github.io/USConglomerates/");
+ul.append('li').append('text').text("Audio Spectrum with Annotations").attr("link", "https://bbasaldu.github.io/AudioSpectrum/");
 ul.append('li').append('text').text("Census Data Geo Map").attr("link", "https://bbasaldu.github.io/CensusDataGeoMap/");
 ul.append('li').append('text').text("On/Off Multi Line Chart").attr("link", "https://bbasaldu.github.io/MultiLine-Chart/");
 ul.append('li').append('text').text("Pan/drag/zoom Scatter Plot").attr("link", "https://bbasaldu.github.io/ScatterPlot/");
