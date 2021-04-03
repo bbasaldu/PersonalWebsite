@@ -1,79 +1,88 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-weight: lighter;
+  font-family: 'Courier New';
+  font-size: 150%;
+
+}
+
+.top {
+  position: relative;
+  height: 30%;
+  width: 100%;
+  margin: auto;
+  /* background-color: #fff; */
+  display: inline-table;
+  /* display: inline-table; */
+  /* z-index: 1 */
+  /* background: linear-gradient(to bottom right,#eacdd0, #fbf9f9); */
+}
+.bottom {
+  position: relative;
+  height: 70%;
+  width: 100%;
+  margin: auto;
+  background-color: #fff;
+  display: inline-table;
+
+}
+svg {
+  position: absolute;
+  width: 100%;
+  top: 100%;
+}
+.title {
+  margin-top: 1%;
+
+  /* margin-bottom: 0px; */
+  left: 5%;
+  position: relative;
+  /* height: 100%; */
+  width: 50%;
+  /* background-color: #fff; */
+  font-size: 1.5em;
+}
+.small-text {
+  left: 10%;
+  font-size: 0.5em;
+}
+.center {
+  position: relative;
+  text-align: center;
+  font-size: 0.5em;
+  height: 5%;
+}
+
 ul {
     overflow: hidden;
     position: relative;
-    z-index: 1;
-/*    top used to be -100px;*/
-    top: -50px; 
-/*    height used to be 500px*/
-    height: 400px;
+    overflow-y: scroll;
+
+    height: 95%;
     letter-spacing: 10px;
     list-style-type: none;
     text-align: center;
-    
+    padding: 0px;
+    margin: 0px;
 }
-
-
 
 .list {
-/*    white-space: nowrap;*/
-    
+    white-space:normal;
     position: relative;
-    
-/*
-    margin-left: 300px;
-    margin-right: 300px;
-*/
-/*    orignal font size 50px*/
-    pointer-events: none;
-    font-size: 50px;
-    cursor: pointer;
-    line-height: 100px;
-    color: #ccc;
-    transition: color 2s;
-    font-weight: lighter;
-    font-family: 'Courier New';
+    /* cursor: pointer; */
+    line-height: 125px;
+    /* color: #ccc; */
+    /* transition: color 2s; */
+
 }
 
-.list:hover {
-    color: #333;
+.text {
+  color: #ccc;
+  transition: color 2s;
+  cursor: pointer;
 }
 
-div.background {
-    position: relative;
-    z-index: 2;
-    text-align: center;
-    height: 200px;
-    background-color: black;
-    margin: auto;
-    outline: 3px solid whitesmoke;
-    outline-offset: -10px;
-}
-
-div.whiteSpace {
-    text-align: center;
-    line-height: 50px;
-    font-family: 'Courier New';
-    
-    background-color: white;
-    height: 85px;
-    position: relative;
-    z-index: 2;
-/*    top used to be 0px*/
-    top: 35px;
-}
-
-h1 {
-    position: inherit;
-    top: 40%;
-    letter-spacing: 5px;
-    /*-webkit-font-smoothing: antialiased;*/
-    font-family: 'Georgia', 'Courier New';
-    font-weight: 100;
-    color: whitesmoke;
-    background-color: none;
-    
-}
-
-.selected {
+.text:hover {
     color: #333;
 }
