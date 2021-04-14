@@ -13,6 +13,7 @@ ul.append('li').append('text').text("On/Off Multi Line Chart").attr("link", "htt
 ul.append('li').append('text').text("Pan/drag/zoom Scatter Plot").attr("link", "https://bbasaldu.github.io/ScatterPlot/");
 ul.append('li').append('text').text("Bubble Pack Layout").attr("link", "https://bbasaldu.github.io/MetaCritic-Review-Visualizer/");
 ul.append('li').append('text').text("Census Data Grouped Bar Chart").attr("link", "https://bbasaldu.github.io/CensusDataGroupedBarChart/");
+ul.append('li').append('text').text("Simple Typing Test App (Windows)").attr("link", "https://github.com/bbasaldu/StoryTyper");
 let list = d3.selectAll('li');
 list.attr("class", "list");
 let bottomText = ul.selectAll('text');
